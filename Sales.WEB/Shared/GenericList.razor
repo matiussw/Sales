@@ -25,7 +25,7 @@
     }
     else
     {
-        @Boby
+        @Body
     }
 
 
@@ -38,10 +38,10 @@
 
     [Parameter]
     [EditorRequired]
-    public RenderFragment? Boby { get; set; }
+    public RenderFragment Body { get; set; } = null!;
 
     [Parameter]
     [EditorRequired]
-    public List<Titem>? MyList { get; set; }
+    public List<Titem> MyList { get; set; } = null!;
 }
 
