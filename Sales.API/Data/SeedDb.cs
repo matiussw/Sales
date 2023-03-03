@@ -18,7 +18,7 @@ namespace Sales.API.Data
         {
             await _context.Database.EnsureCreatedAsync();
             await CheckCountriesAsync();
-         //   await CheckCategoriesAsync();
+         //await CheckCategoriesAsync();
         }
 
         private async Task CheckCountriesAsync()
